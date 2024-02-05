@@ -1,0 +1,119 @@
+.upper-footer {
+    padding: 40px 65px 30px;
+    background: transparent linear-gradient(90deg, #25314D 0%, #324572 100%) 0% 0% no-repeat;
+}
+.footer-link {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+}
+.footer-link:hover {
+    color: #FFFFFF;
+}
+.footer-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.footer-img-1 {
+    height: 133px;
+}
+.footer-link.font-weight-bold {
+    font-size: 14px;
+}
+.footer-link.footer-small-txt {
+    font-size: 13px;
+    text-align: center;
+}
+.text-decoraton-none {
+    text-decoration: none !important;
+}
+.socil-icons img {
+    height: 24px;
+}
+.lower-footer {
+    padding: 15px 65px;
+    background: transparent linear-gradient(270deg, #25314D 0%, #324572 100%) 0% 0% no-repeat;
+}
+.lower-footer h2 {
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 1350px) {
+    .footer-img-3 {
+        margin-top: 4px;
+        margin-right: 4px;
+    }
+    .footer-img-icon-outer {
+        justify-content: center;
+    }
+    .footer-img-right {
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 1215px) {
+    .footer-link.font-weight-bold {
+        font-size: 13px;
+    }
+    .upper-footer {
+        padding: 15px 20px 35px;
+    }
+    .lower-footer {
+        padding: 15px 20px;
+        margin-top: -2px;
+    }
+    .mix-text {
+        margin-bottom: 15px;
+    }
+    .footer-link.font-weight-bold {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .upper-footer {
+        padding: 15px 0px 35px;
+    }
+    .hide-on-mob {
+        display: none !important;
+    }
+    .cards-outer img {
+        margin-right: 8px;
+        margin-top: 8px;
+    }
+    .cards-outer img:last-child {
+        margin-right: 0px;
+    }
+    .lower-footer h2.copyright-text {
+        line-height: 1.7;
+    }
+    .footer-img-icon-outer {
+        justify-content: flex-start;
+    }
+    .footer-link.footer-small-txt {
+        text-align: left;
+    }
+}
+
+@media (max-width: 505px) {
+    .lower-footer h2 {
+        font-size: 10px;
+    }
+    .upper-footer {
+        padding: 15px 13px 20px 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .upper-footer {
+        padding: 15px 15px 20px;
+    }
+}

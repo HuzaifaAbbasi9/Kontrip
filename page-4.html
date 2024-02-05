@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/page-1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+
+<body>
+<div class="overlay d-none"></div>
+<nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-full-view"
+            aria-controls="navbar-full-view" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="images/new-pages/nav-line-icon.png" class="img-fluid d-lg-none open-nav" alt="">
+    </button>
+    <a class="navbar-brand" href="#"><img src="images/Logo.png" class="img-fluid" alt="Kontrip"></a>
+    <a class="nav-link d-lg-none mob-profile-outer p-0" href="#">
+        <img src="images/new-pages/nav-profile.png" class="img-fluid d-block m-auto profile-img" alt="">
+        <span class="profile-nam mx-2 d-block text-center mt-1">Olá, Maria</span>
+        <img src="images/down-arrow.png" class="img-fluid d-block mx-auto mt-1 down-arrow" alt="">
+    </a>
+
+    <div class="collapse navbar-collapse show" id="navbar-full-view">
+        <ul class="navbar-nav hide-on-mob mr-auto">
+            <li class="nav-item hide-on-mob">
+                <a class="nav-link nav-link-with-icon" href="#">
+                    <img src="images/aroplane.png" class="img-fluid" alt="">
+                    <span>Busque sua viagem</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav hide-on-mob ml-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item hide-on-mob">
+                <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Meus Pedidos</a>
+            </li>
+            <li class="nav-item hide-on-mob">
+                <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Central de Ajuda</a>
+            </li>
+            <li class="nav-item hide-on-mob pl-lg-5">
+                <a class="nav-link" href="#">
+                    <img src="images/new-pages/nav-profile.png" class="img-fluid" alt="">
+                    <span class="profile-nam mx-2">Olá, Maria</span>
+                    <img src="images/down-arrow.png" class="img-fluid" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="mobile-nav mobile-nav-item d-lg-none">
+    <div class="mobile-nav-inner mobile-nav-item">
+        <a href="#" class="mob-nav-close mobile-nav-item"><img src="images/new-pages/Icon-cross.png"
+                                                               class="img-fluid nav-cross-btn mobile-nav-item"
+                                                               alt=""></a>
+        <div class="mobile-nav-item">
+            <img src="images/new-pages/logo-mob.png" class="img-fluid mobile-nav-item" alt="">
+        </div>
+        <div class="mob-nav-margin mobile-nav-item">
+            <a href="#" class="mob-nav-link mobile-nav-item">Dashboard </a>
+            <a href="#" class="mob-nav-link mobile-nav-item">Meus Pedidos </a>
+            <a href="#" class="mob-nav-link mobile-nav-item">Central de Ajuda </a>
+        </div>
+        <button class="mob-nav-btn mobile-nav-item">
+            <img src="images/new-pages/local_airport-24px.png" class="img-fluid mobile-nav-item" alt="">
+            Buscar nova viagem
+        </button>
+    </div>
+</div>
+<section class="main-wraper">
+    <div class="d-flex w-100">
+        <div class="d-lg-inline mx-lg-auto text-center">
+            <h2 class="main-heading mb-md-4 mb-2 text-center">Selecione os produtos que deseja visualizar:</h2>
+            <div class="text-center">
+                <button data-target="tab-1" data-toggle="tab-1-drop-down" class="tabs active-tab">
+                    <img src="images/new-pages/local_airport-24px.png" class="img-fluid active-tab-img mr-2" alt="">
+                    <img src="images/new-pages/tabs-btn-1.png" class="img-fluid mr-2" alt="">
+                    Voos (2)
+                </button>
+                <button data-target="tab-2" data-toggle="tab-2-drop-down" class="tabs mx-md-2 ml-md-0 ml-0">
+                    <img src="images/new-pages/bulding-pic.png" class="img-fluid mr-2" alt="">
+                    <img src="images/new-pages/tabs-btn-2-active.png" class="img-fluid active-tab-img mr-2" alt="">
+                    Hospedagem (1)
+                </button>
+                <button data-target="tab-3" data-toggle="tab-3-drop-down" class="tabs">
+                    <img src="images/new-pages/car-pic.png" class="img-fluid mr-2" alt="">
+                    <img src="images/new-pages/tabs-btn-3-active.png" class="img-fluid active-tab-img mr-2" alt="">
+                    Carro (1)
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2 class="">Selecione os produtos acima que deseja visualizar</h2>
+    </div>
+</section>
+<footer>
+    <div class="upper-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 d-lg-none pt-3">
+                    <a href="#" class="footer-link font-weight-bold mb-0">Formas de pagamento</a>
+                    <a href="#" class="footer-link footer-small-txt">Cartões de crédito</a>
+                    <div class="d-flex flex-wrap footer-img-icon-outer cards-outer">
+                        <img src="images/new-pages/footer-1.png" class="img-fluid" alt="">
+                        <img src="images/new-pages/footer-2.png" class="img-fluid" alt="">
+                        <img src="images/new-pages/footer-3.png" class="img-fluid" alt="">
+                        <img src="images/new-pages/footer-4.png" class="img-fluid" alt="">
+                        <img src="images/new-pages/footer-5.png" class="img-fluid" alt="">
+                        <img src="images/new-pages/footer-6.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 d-lg-none pt-3">
+                    <a href="#" class="footer-link font-weight-bold">Compre com segurança</a>
+                    <img src="images/new-pages/footer-7.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 d-lg-none pt-3">
+                    <a href="#" class="footer-link">Fique por dentro</a>
+                    <div class="d-flex socil-icons align-items-center">
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/instagram.png" class="img-fluid mr-3" alt="">
+                        </a>
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/facebook.png" class="img-fluid mr-3" alt="">
+                        </a>
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/linkedin.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 pl-lg-0 pt-3 position-relative">
+                    <a href="#" class="footer-link">Início</a>
+                    <a href="#" class="footer-link">Sobre nós</a>
+                    <a href="#" class="footer-link">Vantagens Kontrip</a>
+                    <img src="images/new-pages/footer-img-1.png" class="img-fluid hide-on-mob footer-img footer-img-1"
+                         alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 pt-3 position-relative">
+                    <a href="#" class="footer-link">Indique a Kontrip</a>
+                    <a href="#" class="footer-link">Parceiros Kontrip</a>
+                    <img src="images/new-pages/footer-img-2.png" class="img-fluid hide-on-mob footer-img footer-img-2"
+                         alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 pt-3">
+                    <a href="#" class="footer-link">Central de ajuda</a>
+                    <a href="#" class="footer-link">Dúvidas frequentes</a>
+                </div>
+                <div class="col-lg-2 col-md-3 hide-on-mob pt-3">
+                    <a href="#" class="footer-link font-weight-bold mb-0">Formas de pagamento</a>
+                    <a href="#" class="footer-link footer-small-txt">Cartões de crédito</a>
+                    <div class="d-flex flex-wrap footer-img-icon-outer">
+                        <img src="images/new-pages/footer-1.png" class="img-fluid mr-1" alt="">
+                        <img src="images/new-pages/footer-2.png" class="img-fluid mr-1" alt="">
+                        <img src="images/new-pages/footer-3.png" class="img-fluid footer-img-3" alt="">
+                        <img src="images/new-pages/footer-4.png" class="img-fluid mr-1 mt-1" alt="">
+                        <img src="images/new-pages/footer-5.png" class="img-fluid mr-1 mt-1" alt="">
+                        <img src="images/new-pages/footer-6.png" class="img-fluid mt-1 footer-img-right" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 hide-on-mob pt-3">
+                    <a href="#" class="footer-link font-weight-bold">Compre com segurança</a>
+                    <img src="images/new-pages/footer-7.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 hide-on-mob pt-3">
+                    <a href="#" class="footer-link">Fique por dentro</a>
+                    <div class="d-flex socil-icons align-items-center">
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/instagram.png" class="img-fluid mr-3" alt="">
+                        </a>
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/facebook.png" class="img-fluid mr-3" alt="">
+                        </a>
+                        <a href="#" class="text-decoraton-none">
+                            <img src="images/new-pages/linkedin.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lower-footer text-center">
+        <h2>Termos e condições <span class="mx-2">|</span> Politica de privacidade</h2>
+        <h2 class="copyright-text"><span class="font-weight-bold">Kontik Viagens</span> - Ministério do Turismo -
+            Embratur <span
+                    class="font-weight-bold">26.001978.10.0010-6</span> | Rua Itapeva, 26 4º Andar, Bela
+            Vista, CEP 01332-000, São Paulo-SP, CNPJ: <span class="font-weight-bold">73.431.686/0010-30</span>
+        </h2>
+        <h2 class="mb-0">Todos os direitos reservados &copy; - 2021</h2>
+    </div>
+</footer>
+
+
+<script src=" assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script>
+    $(".navbar-toggler").click(function (e) {
+        e.preventDefault();
+        $(".mobile-nav").addClass("show-nav");
+        $(".overlay").removeClass("d-none");
+    });
+    $(".mob-nav-close").click(function (e) {
+        e.preventDefault();
+        $(".mobile-nav").removeClass("show-nav");
+        $(".overlay").addClass("d-none");
+    });
+    $(".table-dropdown").click(function (e) {
+        e.preventDefault();
+    });
+    $(".check-box-2").click(function (e) {
+        console.log($(this));
+        $(".check-box-2").removeClass("checked");
+        $(this).addClass("checked");
+    });
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var $navbar = $(".mobile-nav");
+        if (!$(clickover).hasClass("open-nav") && !$(clickover).hasClass("navbar-toggler")) {
+            if (!$(clickover).hasClass("mobile-nav-item")) {
+                var _opened = $navbar.hasClass("show-nav");
+                if (_opened === true && !clickover.hasClass("mobile-nav")) {
+                    $navbar.removeClass('show-nav');
+                    $(".overlay").addClass("d-none");
+                }
+            }
+
+        }
+        // var $navbar = $(".mobile-nav");
+    });
+
+    $(".cursor-poiniter").click(function (e) {
+        e.preventDefault();
+        if ($(this).parents("tr").hasClass("red-border")) {
+            $(this).parents(".overflow-x-scrool").next(".table-details").addClass("red");
+        } else if ($(this).parents("tr").hasClass("green-border")) {
+            $(this).parents(".overflow-x-scrool").next(".table-details").addClass("green");
+        } else if ($(this).parents("tr").hasClass("yellow-border")) {
+            $(this).parents(".overflow-x-scrool").next(".table-details").addClass("yellow");
+        }
+        $(this).parents(".overflow-x-scrool").next(".table-details").toggleClass("hide-details")
+    })
+    $(".colse-btn").click(function (e) {
+        e.preventDefault();
+        $(this).parents(".table-details").addClass("hide-details")
+    })
+    $(".tabs").click(function (e) {
+        e.preventDefault();
+        var dropdown = $(this).attr("data-toggle");
+        var target = $(this).attr("data-target");
+        $(".tabs-wraper").removeClass("active-tab-wraper");
+        $("." + target).addClass("active-tab-wraper");
+
+        $(".tabs-drop-dwon").addClass("d-none").removeClass("d-inline");
+        $("." + dropdown).removeClass("d-none").addClass("d-inline");
+
+        $(".tabs").removeClass("active-tab");
+        $(this).addClass("active-tab");
+    })
+    $(".tooltip-img-1").hover(
+        function () {
+            $(this).parents(".overflow-x-scrool").children(".tooltip-1").removeClass("d-none");
+        }, function () {
+            $(this).parents(".overflow-x-scrool").children(".tooltip-1").addClass("d-none");
+        }
+    );
+    $(".tooltip-2-img").hover(
+        function () {
+            $(this).parents(".overflow-x-scrool").children(".tooltip-2").removeClass("d-none");
+        }, function () {
+            $(this).parents(".overflow-x-scrool").children(".tooltip-2").addClass("d-none");
+        }
+    );
+</script>
+</body>
+
+</html>
